@@ -25,7 +25,7 @@ Tunnel.prototype.connect = function(port, cb) {
 };
 
 Tunnel.prototype.close = function() {
-  ngrok.disconnect();
+
 };
 
 module.exports = Tunnel;
